@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Automatic Redirect with HTMX</title>
+    <script src="https://unpkg.com/htmx.org/dist/htmx.js"></script>
+</head>
+<body>
+
+<h1>This page will automatically redirect to GitHub in 5 seconds</h1>
+
+<button hx-vals="5000" hx-get="https://github.com/fuzLabs">Redirect to fuzLabs GitHub</button>
+
+</body>
+</html>
