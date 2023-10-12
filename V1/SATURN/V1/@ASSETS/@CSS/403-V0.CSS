@@ -8,11 +8,9 @@ body{
     
     h1, h3 {
     color: rgb(100, 21, 21);
-    font-family: 'Fira Code', monospace;
     }
     
     h6{
     color: rgb(100, 21, 21);
     text-decoration: underline;
-    font-family: 'Fira Code', monospace;
     }
