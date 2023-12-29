@@ -8,12 +8,13 @@ body {
   background-size: cover;
   color: rgb(167, 176, 252);
   font-size: 20px;
+  font-weight: bold;
 }
 
 .sidebar {
   // border-radius: 20px;
   font-family: monospace;
-  background-color: rgba(0, 0, 0, 0.7);
+  background: transparent;
   width: 100px;
   height: 100vh;
   position: fixed;
@@ -22,6 +23,11 @@ body {
   align-items: center;
   padding-top: 20px;
   backdrop-filter: blur(10px);
+
+  &::after {
+    background-color: #ffffff;
+    width: 5px; /* width of the vertical bar */
+  }
 }
 
 .button-like {
@@ -45,6 +51,8 @@ body {
   width: 75%;
   cursor: pointer;
   transition: background-color 0.5s ease;
+  font-weight: bolder;
+
 
   &:hover {
     background-color: rgba(65, 76, 172, 0.719);
